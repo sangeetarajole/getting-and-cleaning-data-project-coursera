@@ -9,13 +9,13 @@ This is the course project for Getting and Cleaning Data course on Coursera. Cod
 	
 2. List all the files of `UCI HAR Dataset` folder
    The files that will be used to load data are listed as follows:
-	`+test/subject_test.txt`
-	`+test/X_test.txt`
-	`+test/y_test.txt`
-	`+train/subject_train.txt`
-	`+train/X_train.txt`
-	`+train/y_train.txt`
-
+	`test/subject_test.txt`	
+	`test/X_test.txt`
+	`test/y_test.txt`
+	`train/subject_train.txt`
+	`train/X_train.txt`
+	`train/y_train.txt`
+	
 3. Load activity, subject and feature info.
 	Read data from the files into the variables.
 	* Read the Activity files.
