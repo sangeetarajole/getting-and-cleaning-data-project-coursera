@@ -61,13 +61,13 @@ dataSubject <- rbind(SubjectTrain, SubjectTest)
 dataActivity<- rbind(ActivityTrain, ActivityTest)
 dataFeatures<- rbind(FeaturesTrain, FeaturesTest)
 
-## 2.set names to variables
+## 2. Set names to variables
 names(dataSubject)<-c("subject")
 names(dataActivity)<- c("activity")
 dataFeaturesNames <- read.table(file.path(path, "features.txt"),head=FALSE)
 names(dataFeatures)<- dataFeaturesNames$V2
 
-## 3.Merge columns to get the data frame Data for all data
+## 3. Merge columns to get the data frame Data for all data
 dataCombine <- cbind(dataSubject, dataActivity)
 Data <- cbind(dataFeatures, dataCombine)
 
@@ -83,9 +83,9 @@ Data<-subset(Data,select=selectedNames)
 ##str(Data)
 
 ## Step 5: Uses descriptive activity names to name the activities in the data set
-## 1.Read descriptive activity names from "activity_labels.txt"
+## 1. Read descriptive activity names from "activity_labels.txt"
 activityLabels <- read.table(file.path(path, "activity_labels.txt"),header = FALSE)
-## factorize Variale activity in the data frame Data using descriptive activity names
+## 2. Factorize Variale activity in the data frame Data using descriptive activity names
 Data$activity<-factor(Data$activity,labels=activityLabels[,2])
 ## Test Print
 head(Data$activity,30)
@@ -100,11 +100,8 @@ names(Data)<-gsub("BodyBody", "Body", names(Data))
 ## Test Print
 names(Data)
 
-## Step 7: Creates a second,independent tidy data set and ouput it
+## Step 7: Creates a independent tidy data set
 
 newData<-aggregate(. ~subject + activity, Data, mean)
 newData<-newData[order(newData$subject,newData$activity),]
 write.table(newData, file = "tidydata.txt",row.name=FALSE,quote = FALSE)
-
-## Produce Codebook
-# knit2html("codebook.Rmd")
