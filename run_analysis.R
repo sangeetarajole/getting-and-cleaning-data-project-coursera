@@ -104,4 +104,4 @@ names(Data)
 
 newData<-aggregate(. ~subject + activity, Data, mean)
 newData<-newData[order(newData$subject,newData$activity),]
-write.table(newData, file = "tidydata.txt",row.name=FALSE,quote = FALSE)
+write.table(newData, file = "tidydata.txt",row.name=FALSE,quote = FALSE, sep = '\t')
