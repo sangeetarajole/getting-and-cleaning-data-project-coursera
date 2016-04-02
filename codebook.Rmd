@@ -35,27 +35,27 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-- timeBodyAccelerometer-XYZ
-- timeGravityAccelerometer-XYZ
-- timeBodyAccelerometerJerk-XYZ
-- timeBodyGyroscope-XYZ
-- timeBodyGyroscopeJerk-XYZ
-- timeBodyAccelerometerMagnitude
-- timeGravityAccelerometerMagnitude
-- timeBodyAccelerometerJerkMagnitude
-- timeBodyGyroscopeMagnitude
-- timeBodyGyroscopeJerkMagnitude
-- frequencyBodyAccelerometer-XYZ
-- frequencyBodyAccelerometerJerk-XYZ
-- frequencyBodyGyroscope-XYZ
-- frequencyBodyAccelerometerMagnitude
-- frequencyBodyAccelerometerJerkMagnitude
-- frequencyBodyGyroscopeMagnitude
-- frequencyBodyGyroscopeJerkMagnitude
+* ` timeBodyAccelerometer-XYZ `
+* ` timeGravityAccelerometer-XYZ `
+* ` timeBodyAccelerometerJerk-XYZ `
+* ` timeBodyGyroscope-XYZ `
+* ` timeBodyGyroscopeJerk-XYZ `
+* ` timeBodyAccelerometerMagnitude `
+* ` timeGravityAccelerometerMagnitude `
+* ` timeBodyAccelerometerJerkMagnitude `
+* ` timeBodyGyroscopeMagnitude `
+* ` timeBodyGyroscopeJerkMagnitude `
+* ` frequencyBodyAccelerometer-XYZ `
+* ` frequencyBodyAccelerometerJerk-XYZ `
+* ` frequencyBodyGyroscope-XYZ `
+* ` frequencyBodyAccelerometerMagnitude `
+* ` frequencyBodyAccelerometerJerkMagnitude `
+* ` frequencyBodyGyroscopeMagnitude `
+* ` frequencyBodyGyroscopeJerkMagnitude `
 
 The set of variables that were estimated from these signals are: 
-- mean(): Mean value
-- std(): Standard deviation
+* ` mean(): Mean value `
+* ` std(): Standard deviation `
 
 ## Identifiers
 
@@ -65,72 +65,72 @@ The set of variables that were estimated from these signals are:
 --------------------------------
 ## Tidy Data Structure
 ###Col Heading Feature Descriptive Statistic (Unit)
-- timeBodyAccelerometer-mean()-X (radians per sec)
-- timeBodyAccelerometer-mean()-Y (radians per sec)
-- timeBodyAccelerometer-mean()-Z (radians per sec)
-- timeBodyAccelerometer-std()-X (radians per sec)
-- timeBodyAccelerometer-std()-Y (radians per sec)
-- timeBodyAccelerometer-std()-Z (radians per sec)
-- timeGravityAccelerometer-mean()-X (radians per sec)
-- timeGravityAccelerometer-mean()-Y  (radians per sec)
-- timeGravityAccelerometer-mean()-Z  (radians per sec)
-- timeGravityAccelerometer-std()-X  (radians per sec)
-- timeGravityAccelerometer-std()-Y  (radians per sec)
-- timeGravityAccelerometer-std()-Z (radians per sec)
-- timeBodyAccelerometerJerk-mean()-X  (radians per sec)
-- timeBodyAccelerometerJerk-mean()-Y (radians per sec)
-- timeBodyAccelerometerJerk-mean()-Z (radians per sec)
-- timeBodyAccelerometerJerk-std()-X  (radians per sec)
-- timeBodyAccelerometerJerk-std()-Y  (radians per sec)
-- timeBodyAccelerometerJerk-std()-Z  (radians per sec)
-- timeBodyGyroscope-mean()-X (radians per sec)
--  timeBodyGyroscope-mean()-Y (radians per sec)
-- timeBodyGyroscope-mean()-Z (radians per sec)
-- timeBodyGyroscope-std()-X (radians per sec)
-- timeBodyGyroscope-std()-Y (radians per sec)
-- timeBodyGyroscope-std()-Z (radians per sec)
-- timeBodyGyroscopeJerk-mean()-X (radians per sec)
-- timeBodyGyroscopeJerk-mean()-Y (radians per sec)
-- timeBodyGyroscopeJerk-mean()-Z (radians per sec)
-- timeBodyGyroscopeJerk-std()-X (radians per sec)
-- timeBodyGyroscopeJerk-std()-Y (radians per sec)
-- timeBodyGyroscopeJerk-std()-Z (radians per sec)
-- timeBodyAccelerometerMagnitude-mean() (radians per sec)
-- timeBodyAccelerometerMagnitude-std() (radians per sec)
-- timeGravityAccelerometerMagnitude-mean() (radians per sec)
-- timeGravityAccelerometerMagnitude-std() (radians per sec)
-- timeBodyAccelerometerJerkMagnitude-mean() (radians per sec)
-- timeBodyAccelerometerJerkMagnitude-std() (radians per sec)
-- timeBodyGyroscopeMagnitude-mean() (radians per sec)
-- timeBodyGyroscopeMagnitude-std() (radians per sec)
-- timeBodyGyroscopeJerkMagnitude-mean() (radians per sec)
-- timeBodyGyroscopeJerkMagnitude-std() (radians per sec)
-- frequencyBodyAccelerometer-mean()-X (hertz)
-- frequencyBodyAccelerometer-mean()-Y  (hertz)
-- frequencyBodyAccelerometer-mean()-Z (hertz)
-- frequencyBodyAccelerometer-std()-X  (hertz)
-- frequencyBodyAccelerometer-std()-Y  (hertz)
-- frequencyBodyAccelerometer-std()-Z  (hertz)
-- frequencyBodyAccelerometerJerk-mean()-X (hertz)
-- frequencyBodyAccelerometerJerk-mean()-Y (hertz)
-- frequencyBodyAccelerometerJerk-mean()-Z (hertz)
-- frequencyBodyAccelerometerJerk-std()-X (hertz)
-- frequencyBodyAccelerometerJerk-std()-Y (hertz)
-- frequencyBodyAccelerometerJerk-std()-Z (hertz)
-- frequencyBodyGyroscope-mean()-X  (hertz)
-- frequencyBodyGyroscope-mean()-Y (hertz)
-- frequencyBodyGyroscope-mean()-Z  (hertz)
-- frequencyBodyGyroscope-std()-X  (hertz)
-- frequencyBodyGyroscope-std()-Y  (hertz)
-- frequencyBodyGyroscope-std()-Z (hertz)
-- frequencyBodyAccelerometerMagnitude-mean() (hertz)
-- frequencyBodyAccelerometerMagnitude-std() (hertz)
-- frequencyBodyAccelerometerJerkMagnitude-mean() (hertz)
-- frequencyBodyAccelerometerJerkMagnitude-std() (hertz)
-- frequencyBodyGyroscopeMagnitude-mean() (hertz)
-- frequencyBodyGyroscopeMagnitude-std() (hertz)
-- frequencyBodyGyroscopeJerkMagnitude-mean() (hertz)
-- frequencyBodyGyroscopeJerkMagnitude-std() (hertz)
+* ` timeBodyAccelerometer-mean()-X (radians per sec) `
+* ` timeBodyAccelerometer-mean()-Y (radians per sec) `
+* ` timeBodyAccelerometer-mean()-Z (radians per sec) `
+* ` timeBodyAccelerometer-std()-X (radians per sec) `
+* ` timeBodyAccelerometer-std()-Y (radians per sec) `
+* ` timeBodyAccelerometer-std()-Z (radians per sec) `
+* ` timeGravityAccelerometer-mean()-X (radians per sec) `
+* ` timeGravityAccelerometer-mean()-Y  (radians per sec) `
+* ` timeGravityAccelerometer-mean()-Z  (radians per sec) `
+* ` timeGravityAccelerometer-std()-X  (radians per sec) `
+* ` timeGravityAccelerometer-std()-Y  (radians per sec) `
+* ` timeGravityAccelerometer-std()-Z (radians per sec) `
+* ` timeBodyAccelerometerJerk-mean()-X  (radians per sec) `
+* ` timeBodyAccelerometerJerk-mean()-Y (radians per sec) `
+* ` timeBodyAccelerometerJerk-mean()-Z (radians per sec) `
+* ` timeBodyAccelerometerJerk-std()-X  (radians per sec) `
+* ` timeBodyAccelerometerJerk-std()-Y  (radians per sec) `
+* ` timeBodyAccelerometerJerk-std()-Z  (radians per sec) `
+* ` timeBodyGyroscope-mean()-X (radians per sec) `
+* `  timeBodyGyroscope-mean()-Y (radians per sec) `
+* ` timeBodyGyroscope-mean()-Z (radians per sec) `
+* ` timeBodyGyroscope-std()-X (radians per sec) `
+* ` timeBodyGyroscope-std()-Y (radians per sec) `
+* ` timeBodyGyroscope-std()-Z (radians per sec) `
+* ` timeBodyGyroscopeJerk-mean()-X (radians per sec) `
+* ` timeBodyGyroscopeJerk-mean()-Y (radians per sec) `
+* ` timeBodyGyroscopeJerk-mean()-Z (radians per sec) `
+* ` timeBodyGyroscopeJerk-std()-X (radians per sec) `
+* ` timeBodyGyroscopeJerk-std()-Y (radians per sec) `
+* ` timeBodyGyroscopeJerk-std()-Z (radians per sec) `
+* ` timeBodyAccelerometerMagnitude-mean() (radians per sec) `
+* ` timeBodyAccelerometerMagnitude-std() (radians per sec) `
+* ` timeGravityAccelerometerMagnitude-mean() (radians per sec) `
+* ` timeGravityAccelerometerMagnitude-std() (radians per sec) `
+* ` timeBodyAccelerometerJerkMagnitude-mean() (radians per sec) `
+* ` timeBodyAccelerometerJerkMagnitude-std() (radians per sec) `
+* ` timeBodyGyroscopeMagnitude-mean() (radians per sec) `
+* ` timeBodyGyroscopeMagnitude-std() (radians per sec) `
+* ` timeBodyGyroscopeJerkMagnitude-mean() (radians per sec) `
+* ` timeBodyGyroscopeJerkMagnitude-std() (radians per sec) `
+* ` frequencyBodyAccelerometer-mean()-X (hertz) `
+* ` frequencyBodyAccelerometer-mean()-Y  (hertz) `
+* ` frequencyBodyAccelerometer-mean()-Z (hertz) `
+* ` frequencyBodyAccelerometer-std()-X  (hertz) `
+* ` frequencyBodyAccelerometer-std()-Y  (hertz) `
+* ` frequencyBodyAccelerometer-std()-Z  (hertz) `
+* ` frequencyBodyAccelerometerJerk-mean()-X (hertz) `
+* ` frequencyBodyAccelerometerJerk-mean()-Y (hertz) `
+* ` frequencyBodyAccelerometerJerk-mean()-Z (hertz) `
+* ` frequencyBodyAccelerometerJerk-std()-X (hertz) `
+* ` frequencyBodyAccelerometerJerk-std()-Y (hertz) `
+* ` frequencyBodyAccelerometerJerk-std()-Z (hertz) `
+* ` frequencyBodyGyroscope-mean()-X  (hertz) `
+* ` frequencyBodyGyroscope-mean()-Y (hertz) `
+* ` frequencyBodyGyroscope-mean()-Z  (hertz) `
+* ` frequencyBodyGyroscope-std()-X  (hertz) `
+* ` frequencyBodyGyroscope-std()-Y  (hertz) `
+* ` frequencyBodyGyroscope-std()-Z (hertz) `
+* ` frequencyBodyAccelerometerMagnitude-mean() (hertz) `
+* ` frequencyBodyAccelerometerMagnitude-std() (hertz) `
+* ` frequencyBodyAccelerometerJerkMagnitude-mean() (hertz) `
+* ` frequencyBodyAccelerometerJerkMagnitude-std() (hertz) `
+* ` frequencyBodyGyroscopeMagnitude-mean() (hertz) `
+* ` frequencyBodyGyroscopeMagnitude-std() (hertz) `
+* ` frequencyBodyGyroscopeJerkMagnitude-mean() (hertz) `
+* ` frequencyBodyGyroscopeJerkMagnitude-std() (hertz) `
 
 ##Dataset structure
 -----------------
