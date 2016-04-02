@@ -1,5 +1,5 @@
 # Code Book
-##Variable and descriptions
+##Variables and descriptions
 ###Subject
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. 
 
@@ -132,7 +132,7 @@ The set of variables that were estimated from these signals are:
 * ` frequencyBodyGyroscopeJerkMagnitude-mean() (hertz) `
 * ` frequencyBodyGyroscopeJerkMagnitude-std() (hertz) `
 
-##Dataset structure
+##View data structure
 -----------------
 ```{r}
 str(newData)
