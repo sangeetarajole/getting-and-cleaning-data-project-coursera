@@ -1,5 +1,5 @@
 # Code Book
-##Variables and descriptions
+##Variable and descriptions
 ###Subject
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. 
 
@@ -64,7 +64,7 @@ The set of variables that were estimated from these signals are:
 
 --------------------------------
 ## Tidy Data Structure
-###Col Heading Feature Descriptive Statistic (Unit)
+###Col Heading (Unit)
 * ` timeBodyAccelerometer-mean()-X (radians per sec) `
 * ` timeBodyAccelerometer-mean()-Y (radians per sec) `
 * ` timeBodyAccelerometer-mean()-Z (radians per sec) `
@@ -132,13 +132,13 @@ The set of variables that were estimated from these signals are:
 * ` frequencyBodyGyroscopeJerkMagnitude-mean() (hertz) `
 * ` frequencyBodyGyroscopeJerkMagnitude-std() (hertz) `
 
-##View data structure
+## Final Dataset 
 -----------------
 ```{r}
 str(newData)
 ```
 
-##Dataset summary
+## Final Dataset summary
 -----------------
 ```{r}
 summary(newData)
