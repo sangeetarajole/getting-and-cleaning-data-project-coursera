@@ -64,7 +64,7 @@ The set of variables that were estimated from these signals are:
 
 --------------------------------
 ## Tidy Data Structure
-###Col Heading (Unit)
+###Column Heading (Unit wise)
 * ` timeBodyAccelerometer-mean()-X (radians per sec) `
 * ` timeBodyAccelerometer-mean()-Y (radians per sec) `
 * ` timeBodyAccelerometer-mean()-Z (radians per sec) `
